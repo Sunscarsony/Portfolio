@@ -135,8 +135,8 @@
 }
 
 .hero-image {
-    width: 100%;
-    max-width: 580px;
+    width: 90%;
+    max-width: 540px;
     z-index: 99;
     height: auto;
     border-radius: 10px;
@@ -149,8 +149,8 @@
     bottom: -60px;
     left: 45%;
     transform: translateX(-50%);
-    width: 500px;
-    height: 500px;
+    max-width: 480px;
+    max-height: 480px;
     animation: rotateRing 7s linear infinite;
 }
 
