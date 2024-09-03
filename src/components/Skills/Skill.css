@@ -4,7 +4,7 @@
     text-align: center;
     opacity: 0;
     transform: translateY(50px);
-    height: 100vh;
+    min-height: 100vh;
     transition: opacity 1s, transform 2s;
     background-position: center;
     background-size: cover;
