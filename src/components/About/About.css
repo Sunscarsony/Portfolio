@@ -12,7 +12,7 @@
 
 .about-image img {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   animation: float 3s ease-in-out infinite;
 }
 
@@ -38,7 +38,7 @@
 
 .about-content h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -46,7 +46,7 @@
 
 .about-content p {
   color: rgb(185, 185, 185);
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 

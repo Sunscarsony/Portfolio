@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <h2 className="footer-heading">Get in Touch</h2>
+        <h2 className="footer-heading" id='contact'>Get in Touch</h2>
         <div className="footer-column footer-connect-form">
           <form>
             <input

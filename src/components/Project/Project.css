@@ -1,5 +1,4 @@
 .project-section {
-  padding: 20px;
   min-height: 100vh;
   position: relative;
   display: flex;
@@ -23,7 +22,7 @@
 }
 
 .project-main-heading {
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   margin-bottom: 40px;
@@ -32,8 +31,8 @@
 }
 
 .project-section-content {
-  font-size: 1.2rem;
-  max-width: 1300px;
+  font-size: 1rem;
+  max-width: 1400px;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
   color: rgb(185, 185, 185);
@@ -48,14 +47,15 @@
 }
 
 .project-card {
-  background-color: #ffffff29;
+  background-color: #ffffff3d;
+  margin: 14px;
   backdrop-filter: blur(5px);
   border-radius: 30px;
   overflow: hidden;
   transform: scale(1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 380px;
-  height: 480px;
+  width: 340px;
+  height: 440px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -76,7 +76,7 @@
 }
 
 .project-card-heading {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin: 15px 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -85,7 +85,7 @@
 
 .project-card-content {
   color: rgb(185, 185, 185);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -98,11 +98,12 @@
 }
 
 .custom-button {
-  width: 140px;
-  height: 46px;
+  width: 130px;
+  height: 40px;
+  margin-bottom: 10px;
   display: inline-flex;
   font-family: 'poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -121,10 +122,10 @@
 .custom-button::before {
   content: '';
   border-radius: 1000px;
-  width: calc(140px + 3px);
-  height: calc(46px + 3px);
-  border: 4px solid #00f7ff;
-  box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
+  width: calc(130px + 3px);
+  height: calc(40px + 3px);
+  border: 4px solid #de00f7;
+  box-shadow: 0 0 60px rgba(89, 0, 254, 0.64);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -135,7 +136,7 @@
 
 .custom-button:hover,
 .custom-button:focus {
-  color: #313133;
+  color: #fbfbfb;
   transform: translateY(-6px);
 }
 

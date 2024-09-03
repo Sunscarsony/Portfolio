@@ -5,8 +5,8 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -21,7 +21,7 @@
     background: linear-gradient(to right, #7300ff 14%, #cd00fb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4rem;
+    font-size: 3.2rem;
     letter-spacing: 1px;
     font-weight: 650;
     margin-bottom: 1rem;
@@ -62,7 +62,7 @@
     color: #f3f3f3;
     font-family: HeroFont, sans-serif;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
@@ -70,7 +70,7 @@
     color: #c0bebe;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -109,8 +109,8 @@
 }
 
 .hero-social-icons video {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     border-radius: 40px;
 }
 
@@ -130,11 +130,12 @@
 .hero-container {
     position: relative;
     display: inline-block;
+    align-self: center;
 }
 
 .hero-image {
     width: 100%;
-    max-width: 700px;
+    max-width: 580px;
     z-index: 99;
     height: auto;
     border-radius: 10px;
@@ -147,8 +148,8 @@
     bottom: -60px;
     left: 45%;
     transform: translateX(-50%);
-    width: 580px;
-    height: 580px;
+    width: 500px;
+    height: 500px;
     animation: rotateRing 7s linear infinite;
 }
 
