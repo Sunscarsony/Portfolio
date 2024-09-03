@@ -7,6 +7,10 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  
+  const handleHireMeClick = () => {
+    window.location.href = 'https://www.linkedin.com/in/sunscarsony';
+  };
 
   return (
     <nav className="navbar">
@@ -19,7 +23,7 @@ const Navbar = () => {
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <button className="navbar-button">Hire Me</button>
+        <button className="navbar-button" onClick={handleHireMeClick} >Hire Me</button>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
         <span className="bar"></span>
