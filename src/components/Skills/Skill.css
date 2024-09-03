@@ -176,16 +176,16 @@
     }
 
     .card {
-        flex: 0 0 120px;
+        flex: 0 0 60px;
         margin: 10px;
     }
 
     .card img {
-        height: 80px;
+        height: 60px;
     }
 
     .card h3 {
-        font-size: 18px;
+        font-size: 0.9rem;
     }
 
     .card p {
@@ -193,10 +193,14 @@
     }
 
     .skills-heading {
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+
+    .skills-section{
+        padding: 10px;
     }
 
     .content p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
