@@ -136,7 +136,7 @@
 
 .hero-image {
     width: 90%;
-    max-width: 540px;
+    max-width: 500px;
     z-index: 99;
     height: auto;
     border-radius: 10px;
@@ -225,7 +225,7 @@
     .hero-image {
         width: 100%;
         max-width: 300px;
-        
+        overfow-x: hidden;
     }
     
     .ring-image {
