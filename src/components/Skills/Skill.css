@@ -203,4 +203,10 @@
     .content p {
         font-size: 0.9rem;
     }
+
+    .card img {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}
 }
