@@ -8,6 +8,8 @@
     transition: opacity 1s, transform 2s;
     background-position: center;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills-section.reveal {
@@ -181,7 +183,8 @@
     }
 
     .card img {
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
 
     .card h3 {
@@ -203,10 +206,4 @@
     .content p {
         font-size: 0.9rem;
     }
-
-    .card img {
-    height: 30px;
-    width: auto;
-    object-fit: contain;
-}
 }
