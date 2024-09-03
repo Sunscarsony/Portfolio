@@ -82,25 +82,35 @@
     }
 
     .hero-subheading {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 
     .hero-content {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
 @media (max-width: 480px) {
     .hero-heading {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .hero-subheading {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 
     .hero-content {
+        text-align: center;
         font-size: 0.9rem;
+    }
+
+    .hero {
+        margin: 10px;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -226,7 +236,7 @@
     .hero-image {
         width: 100%;
         max-width: 300px;
-        overfow-x: hidden;
+        overflow-x: hidden;
     }
     
     .ring-image {

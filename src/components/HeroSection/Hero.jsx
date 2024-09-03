@@ -1,5 +1,4 @@
 import "./Hero.css";
-
 const Hero = () => {
   return (
     <div className="hero" id="home">
@@ -23,7 +22,7 @@ const Hero = () => {
 
         <div className="hero-social-icons">
           <a
-            href="https://linkedfdin.com"
+            href="https://linkedin.com/in/sunscarsony/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,7 +35,7 @@ const Hero = () => {
             />
           </a>
           <a
-            href="https://githddub.com"
+            href="https://github.com/Sunscar-Sony/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,7 +48,7 @@ const Hero = () => {
             />
           </a>
           <a
-            href="https://instadfbgram.com"
+            href="mailto:your-sunscarsony@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -7,8 +7,9 @@
     min-height: 100vh;
     transition: opacity 1s, transform 2s;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 }
 
 .skills-section.reveal {
@@ -100,7 +101,7 @@
 }
 
 .card {
-    flex: 0 0 120px;
+    flex: 0 0 140px;
     padding: 20px;
     margin: 20px;
     background-color: #ffffff29;
@@ -119,7 +120,7 @@
 
 .card img {
     width: 100%;
-    height: 50px;
+    height: 60px;
     object-fit: contain;
     border-radius: 8px;
 }
@@ -136,7 +137,7 @@
 
 @media (max-width: 1024px) {
     .card {
-        flex: 0 0 220px;
+        flex: 0 0 120px;
     }
 
     .card h3 {
@@ -177,18 +178,17 @@
     }
 
     .card {
-        height: 60px;
-        width: 60px;
+        flex: 0 60px 60px;
         margin: 10px;
     }
 
     .card img {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     .card h3 {
-        font-size: 0.9rem;
+        font-size: 12px;
     }
 
     .card p {
@@ -196,7 +196,7 @@
     }
 
     .skills-heading {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .skills-section{
