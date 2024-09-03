@@ -141,13 +141,14 @@
     height: auto;
     border-radius: 10px;
     animation: scaleUp 1s ease-in-out, moveUpDown 3s ease-in-out infinite;
+    overflow-x: hidden;
 }
 
 .ring-image {
     border-radius: 50%;
     position: absolute;
     bottom: -60px;
-    left: 45%;
+    left: 50%;
     transform: translateX(-50%);
     max-width: 480px;
     max-height: 480px;
@@ -214,20 +215,22 @@
     }
 
     .ring-image {
-        width: 400px;
-        height: 400px;
+        max-width: 400px;
+        max-height: 400px;
         bottom: -40px;
     }
 }
 
 @media (max-width: 480px) {
     .hero-image {
-        max-width: 100%;
+        width: 100%;
+        max-width: 300px;
+        
     }
-
+    
     .ring-image {
-        width: 300px;
-        height: 300px;
+        max-width: 300px;
+        max-height: 300px;
         bottom: -30px;
     }
 }
