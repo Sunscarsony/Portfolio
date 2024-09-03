@@ -2,31 +2,29 @@ import { useInView } from "react-intersection-observer";
 import "./Skill.css";
 
 const skills1 = [
-  { name: "HTML", image: "/skills/angularjs.png" },
+  { name: "HTML", image: "/skills/html.png" },
   { name: "CSS", image: "/skills/css3.png" },
   { name: "JavaScript", image: "/skills/javascript.png" },
-  { name: "React", image: "/skills/angularjs.png" },
-  { name: "TypeScript", image: "/skills/php.png" },
-  { name: "Sass", image: "/skills/python.png" },
-  { name: "Webpack", image: "/skills/tailwind.png" },
-  { name: "Babel", image: "/skills/angularjs.png" },
-  { name: "Jest", image: "/skills/angularjs.png" },
-  { name: "GraphQL", image: "/skills/css3.png" },
-  { name: "Tailwind CSS", image: "/skills/angularjs.png" },
+  { name: "React", image: "/skills/react-js.png" },
+  { name: "TypeScript", image: "/skills/typescript.png" },
+  { name: "Webpack", image: "/skills/webpack.png" },
+  { name: "Babel", image: "/skills/babel.png" },
+  { name: "NestJS", image: "/skills/nestjs.png" },
+  { name: "Tailwind CSS", image: "/skills/tailwind.png" },
 ];
 
 const skills2 = [
-  { name: "Node.js", image: "/skills/angularjs.png" },
-  { name: "MongoDB", image: "/skills/css3.png" },
-  { name: "Python", image: "/skills/javascript.png" },
-  { name: "Git", image: "/skills/angularjs.png" },
-  { name: "Docker", image: "/skills/php.png" },
-  { name: "Kubernetes", image: "/skills/tailwind.png" },
-  { name: "AWS", image: "/skills/angularjs.png" },
-  { name: "Firebase", image: "/skills/python.png" },
-  { name: "SQL", image: "/skills/tailwind.png" },
-  { name: "Express.js", image: "/skills/css3.png" },
-  { name: "REST API", image: "/skills/python.png" },
+  { name: "Node.js", image: "/skills/nodejs.png" },
+  { name: "MongoDB", image: "/skills/mongo-db.png" },
+  { name: "Python", image: "/skills/python.png" },
+  { name: "Git", image: "/skills/git.png" },
+  { name: "Docker", image: "/skills/docker.png" },
+  { name: "Kubernetes", image: "/skills/kubernetes.png" },
+  { name: "AWS", image: "/skills/aws.png" },
+  { name: "Firebase", image: "/skills/firebase.png" },
+  { name: "SQL", image: "/skills/sql.png" },
+  { name: "jQuery", image: "/skills/jquery.png" },
+  { name: "Java", image: "/skills/java.png" },
 ];
 
 const Skill = () => {
