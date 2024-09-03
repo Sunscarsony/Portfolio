@@ -1,5 +1,6 @@
 .hero {
     overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     flex: 1;
     justify-content: space-around;
